@@ -98,7 +98,7 @@ window.onload = function() {
       'angleOffset': -125,
       'angleArc': 360,
       'thickness': .4,
-      'width': '10%'
+      'width': '100%'
     });
   });
 
