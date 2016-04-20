@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="UTF-8">
+
+    <!-- External CSS -->
+    <link href="assets/css/external/bootstrap.min.css" rel="stylesheet" type='text/css'>
+
+    <title>Mello-Bot</title>
+
+    <!-- External JS -->
+    <script src="assets/js/external/jquery-1.12.3.min.js"></script>
+    <script src="assets/js/external/jquery.knob.min.js"></script>
+    <script src="assets/js/external/bootstrap.min.js"></script>
+    <script src="assets/js/external/howler.min.js"></script>
+    <script src="assets/js/external/snap.svg-min.js"></script>
+
+    <!-- Built in JS -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- Internal CSS -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div>
+          <div id="buttons">
+            <button id="cello-btn" class="btn">Cello</button>
+            <button id="choir-btn" class="btn">Choir</button>
+            <button id="flute-btn" class="btn">Flute</button>
+            <button id="gc3brass-btn" class="btn">GC3Brass</button>
+            <button id="m300a-btn" class="btn">M300A</button>
+            <button id="m300b-btn" class="btn">M300B</button>
+            <button id="mkIIbrass-btn" class="btn">MKIIBrass</button>
+            <button id="strings-btn" class="btn">Strings</button>
+            <button id="violin-btn" class="btn">Violin</button>
+            <button id="woodwind-btn" class="btn">Woodwind</button>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div id="knob-container">
+          <input type="text" value="0" class="dial">
+        </div>
+          <svg id="canvas"></svg>
+      </div>
+    </div>
+  </body>
+</html>

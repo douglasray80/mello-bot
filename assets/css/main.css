@@ -1,0 +1,34 @@
+
+body {}
+
+#canvas {
+  background-image: url('../img/mellotron2.jpg');
+  background-size: 37%;
+  background-repeat: no-repeat;
+  width: 3000px;
+  height: 800px;
+  margin: 30px;
+  padding: 0;
+}
+
+#buttons { margin-top: 10px; }
+
+button { color: #000000; }
+
+.knob-container {
+  width: 200px;
+  margin-top: 16px;
+  margin-left: 12px;
+  position: fixed;
+}
+
+.selected {
+  background-color: #3063c4;
+  opacity: 0.4;
+  border: 1px solid black;
+}
+
+.ui-loader {
+  display: none !important;
+  background: none !important;
+}
