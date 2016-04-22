@@ -25,8 +25,8 @@ window.onload = function() {
   //   'M 0 400 H 1000 M 0 410 H 1000 M 0 420 H 1000 M 0 430 H 1000 M 0 440 H 1000 M 0 450 H 1000 M 0 460 H 1000 M 0 470 H 1000 M 0 480 H 1000 M 0 490 H 1000' +
   //   'M 0 500 H 1000 M 0 510 H 1000 M 0 520 H 1000 M 0 530 H 1000 M 0 540 H 1000 M 0 550 H 1000' +
   //   'M 0 0 Z').attr({ stroke: '#000000', 'stroke-width': 0.4 });
-  //
-  //
+
+
   //   paper.text(50, 5, "50");
   //   paper.text(100, 5, "100");
   //   paper.text(150, 5, "150");
@@ -103,43 +103,43 @@ window.onload = function() {
   });
 
   // KEYS
-  var g0 = paper.path('M 374 291, L 357 392, L 384 392, L 390 350, L 382 350, L 389 291, L 374 291, Z').attr({ fill: '#fff', stroke: '#000', 'stroke-width': 0.5 });
-  var gSharp0 = paper.path('M 389 291, L 382 349, L 398 349, L 405 291, L 389 291, Z').attr({ fill: 'none', stroke: '#000', 'stroke-width': 0.5 });
-  var a0 = paper.path('M 406 291, L 398.5 350, L 390 350, L 385 392, L 414 392, L 418 350, L 414 350, L 420 291, L 406 291, Z').attr({ fill: "#fff", stroke: '#000', 'stroke-width': 0.5 });
-  var aSharp0 = paper.path('M 420 291, L 414 349, L 431 349, L 436 291, L 420 291, Z').attr({ fill: 'none', stroke: '#000', 'stroke-width': 0.5 });
-  var b0 = paper.path('M 436 291, L 430 350, L 419 350, L 415 392, L 444 392, L 451 291, L 436 291, Z').attr({ fill: '#fff', stroke: '#000', 'stroke-width': 0.5 });
-  var c1 = paper.path('M 451.5 291, L 445 392, L 474 392, L 476 349, L 465 349, L 468 291, L 451 291, Z').attr({ fill: '#fff', stroke: '#000', 'stroke-width': 0.5 });
-  var cSharp1 = paper.path('M 468 291, L 465 349, L 483 349, L 485 291, L 468 291, Z').attr({ fill: 'none', stroke: '#000', 'stroke-width': 0.5 });
-  var d1 = paper.path('M 485 291, L 483 349, L 476 349, L 475 392, L 505 392, L 506 349, L 500 349, L 502 291, L 485 291, Z').attr({ fill: '#fff', stroke: '#000', 'stroke-width': 0.5 });
-  var dSharp1 = paper.path('M 502 291, L 501 349, L 518 349, L 518 291, L 502 291, Z').attr({ fill: "none", stroke: '#000', 'stroke-width': 0.5 });
-  var e1 = paper.path('M 518 291, L 518 349, L 506 349, L 506 392, L 535 392, L 534 291, L 518 291, Z').attr({ fill: "#fff", stroke: '#000', 'stroke-width': 0.5 });
-  var f1 = paper.path('M 534 291, L 535 392, L 564 392, L 563.5 349, L 551 349, L 549 291, L 534 291, Z').attr({ fill: "none", stroke: '#000', 'stroke-width': 0.5 });
-  var fSharp1 = paper.path('M 549 291, L 551 349, L 568 349, L 566 291, L 549 291, Z').attr({ fill: "none", stroke: '#000', 'stroke-width': 0.5 });
+  var g0 = paper.path('M 374 291, L 357 392, L 384 392, L 390 350, L 382 350, L 389 291, L 374 291, Z').attr({ fill: '#fff', stroke: '#000', strokeWidth: 0.5 });
+  var gSharp0 = paper.path('M 389 291, L 382 349, L 398 349, L 405 291, L 389 291, Z').attr({ fill: 'none', stroke: '#000', strokeWidth: 0.5 });
+  var a0 = paper.path('M 406 291, L 398.5 350, L 390 350, L 385 392, L 414 392, L 418 350, L 414 350, L 420 291, L 406 291, Z').attr({ fill: "#fff", stroke: '#000', strokeWidth: 0.5 });
+  var aSharp0 = paper.path('M 420 291, L 414 349, L 431 349, L 436 291, L 420 291, Z').attr({ fill: 'none', stroke: '#000', strokeWidth: 0.5 });
+  var b0 = paper.path('M 436 291, L 430 350, L 419 350, L 415 392, L 444 392, L 451 291, L 436 291, Z').attr({ fill: '#fff', stroke: '#000', strokeWidth: 0.5 });
+  var c1 = paper.path('M 451.5 291, L 445 392, L 474 392, L 476 349, L 465 349, L 468 291, L 451 291, Z').attr({ fill: '#fff', stroke: '#000', strokeWidth: 0.5 });
+  var cSharp1 = paper.path('M 468 291, L 465 349, L 483 349, L 485 291, L 468 291, Z').attr({ fill: 'none', stroke: '#000', strokeWidth: 0.5 });
+  var d1 = paper.path('M 485 291, L 483 349, L 476 349, L 475 392, L 505 392, L 506 349, L 500 349, L 502 291, L 485 291, Z').attr({ fill: '#fff', stroke: '#000', strokeWidth: 0.5 });
+  var dSharp1 = paper.path('M 502 291, L 501 349, L 518 349, L 518 291, L 502 291, Z').attr({ fill: "none", stroke: '#000', strokeWidth: 0.5 });
+  var e1 = paper.path('M 518 291, L 518 349, L 506 349, L 506 392, L 535 392, L 534 291, L 518 291, Z').attr({ fill: '#fff', stroke: '#000', strokeWidth: 0.5 });
+  var f1 = paper.path('M 534 291, L 535 392, L 564 392, L 563.5 349, L 551 349, L 549 291, L 534 291, Z').attr({ fill: '#fff', stroke: '#000', strokeWidth: 0.5 });
+  var fSharp1 = paper.path('M 549 291, L 551 349, L 568 349, L 566 291, L 549 291, Z').attr({ fill: "none", stroke: '#000', strokeWidth: 0.5 });
 
-  var g1 = paper.rect(20, 670, 50, 50, 10).attr({ fill: "#3063c4", stroke: '#000', 'stroke-width': 1 });
-  var gSharp1 = paper.rect(90, 670, 50, 50, 10).attr({ fill: "#3063c4", stroke: '#000', 'stroke-width': 1 });
-  var a1 = paper.rect(160, 670, 50, 50, 10).attr({ fill: "#3063c4", stroke: '#000', 'stroke-width': 1 });
-  var aSharp1 = paper.rect(230, 670, 50, 50, 10).attr({ fill: "#3063c4", stroke: '#000', 'stroke-width': 1 });
-  var b1 = paper.rect(300, 670, 50, 50, 10).attr({ fill: "#3063c4", stroke: '#000', 'stroke-width': 1 });
-  var c2 = paper.rect(370, 670, 50, 50, 10).attr({ fill: "#3063c4", stroke: '#000', 'stroke-width': 1 });
-  var cSharp2 = paper.rect(440, 670, 50, 50, 10).attr({ fill: "#3063c4", stroke: '#000', 'stroke-width': 1 });
-  var d2 = paper.rect(510, 670, 50, 50, 10).attr({ fill: "#3063c4", stroke: '#000', 'stroke-width': 1 });
-  var dSharp2 = paper.rect(580, 670, 50, 50, 10).attr({ fill: "#3063c4", stroke: '#000', 'stroke-width': 1 });
-  var e2 = paper.rect(650, 670, 50, 50, 10).attr({ fill: "#3063c4", stroke: '#000', 'stroke-width': 1 });
-  var f2 = paper.rect(720, 670, 50, 50, 10).attr({ fill: "#3063c4", stroke: '#000', 'stroke-width': 1 });
-  var fSharp2 = paper.rect(790, 670, 50, 50, 10).attr({ fill: "#3063c4", stroke: '#000', 'stroke-width': 1 });
+  var g1 = paper.path('M 566 291, L 568 349, L 564.5 349, L 566 392, L 595 392, L 593.5 349, L 584 349, L 581 291, L 566 291, Z').attr({ fill: "none", stroke: '#000', strokeWidth: 0.5 });
+  var gSharp1 = paper.path('M 581 291, L 584 349, L 600 349, L 596 291, L 581 291, Z').attr({ fill: "none", stroke: '#000', strokeWidth: 0.5 });
+  var a1 = paper.path('M 596 291, L 601 349, L 594 349, L 596 392, L 626 392, L 620 349, L 615 349, L 610 291, L 596 291, Z').attr({ fill: "none", stroke: '#000', strokeWidth: 0.5 });
+  var aSharp1 = paper.path('M 610 291, L 610 349, L 620 349, L 620 291, L 610 291, Z').attr({ fill: "none", stroke: '#f00', strokeWidth: 0.8 });
+  var b1 = paper.path('M ').attr({ fill: 'none', stroke: '#f00', strokeWidth: 0.8 });
+  var c2 = paper.path('M ').attr({ fill: 'none', stroke: '#f00', strokeWidth: 0.8 });
+  var cSharp2 = paper.path('M 660 291, L 670 349, L 670 349, L 670 291, L 660 291, Z').attr({ fill: "none", stroke: '#f00', strokeWidth: 0.8 });
+  var d2 = paper.path('M ').attr({ fill: 'none', stroke: '#f00', strokeWidth: 0.8 });
+  var dSharp2 = paper.path('M 690 291, L 690 349, L 700 349, L 700 291, L 690 291, Z').attr({ fill: "none", stroke: '#f00', strokeWidth: 0.8 });
+  var e2 = paper.path('M ').attr({ fill: 'none', stroke: '#f00', strokeWidth: 0.8 });
+  var f2 = paper.path('M ').attr({ fill: 'none', stroke: '#f00', strokeWidth: 0.8 });
+  var fSharp2 = paper.path('M 740 291, L 740 349, L 750 349, L 750 291, L 740 291, Z').attr({ fill: "none", stroke: '#f00', strokeWidth: 0.8 });
 
-  var g2 = paper.rect(20, 740, 50, 50, 10).attr({ fill: "#3063c4", stroke: '#000', 'stroke-width': 1 });
-  var gSharp2 = paper.rect(90, 740, 50, 50, 10).attr({ fill: "#3063c4", stroke: '#000', 'stroke-width': 1 });
-  var a2 = paper.rect(160, 740, 50, 50, 10).attr({ fill: "#3063c4", stroke: '#000', 'stroke-width': 1 });
-  var aSharp2 = paper.rect(230, 740, 50, 50, 10).attr({ fill: "#3063c4", stroke: '#000', 'stroke-width': 1 });
-  var b2 = paper.rect(300, 740, 50, 50, 10).attr({ fill: "#3063c4", stroke: '#000', 'stroke-width': 1 });
-  var c3 = paper.rect(370, 740, 50, 50, 10).attr({ fill: "#3063c4", stroke: '#000', 'stroke-width': 1 });
-  var cSharp3 = paper.rect(440, 740, 50, 50, 10).attr({ fill: "#3063c4", stroke: '#000', 'stroke-width': 1 });
-  var d3 = paper.rect(510, 740, 50, 50, 10).attr({ fill: "#3063c4", stroke: '#000', 'stroke-width': 1 });
-  var dSharp3 = paper.rect(580, 740, 50, 50, 10).attr({ fill: "#3063c4", stroke: '#000', 'stroke-width': 1 });
-  var e3 = paper.rect(650, 740, 50, 50, 10).attr({ fill: "#3063c4", stroke: '#000', 'stroke-width': 1 });
-  var f3 = paper.rect(720, 740, 50, 50, 10).attr({ fill: "#3063c4", stroke: '#000', 'stroke-width': 1 });
+  var g2 = paper.path('M ').attr({ fill: 'none', stroke: '#f00', strokeWidth: 0.8 });
+  var gSharp2 = paper.path('M 770 291, L 770 349, L 780 349, L 780 291, L 770 291, Z').attr({ fill: "none", stroke: '#f00', strokeWidth: 0.8 });
+  var a2 = paper.path('M ').attr({ fill: 'none', stroke: '#f00', strokeWidth: 0.8 });
+  var aSharp2 = paper.path('M 800 291, L 800 349, L 810 349, L 810 291, L 800 291, Z').attr({ fill: "none", stroke: '#f00', strokeWidth: 0.8 });
+  var b2 = paper.path('M ').attr({ fill: 'none', stroke: '#f00', strokeWidth: 0.8 });
+  var c3 = paper.path('M ').attr({ fill: 'none', stroke: '#f00', strokeWidth: 0.8 });
+  var cSharp3 = paper.path('M 850 291, L 850 349, L 860 349, L 860 291, L 850 291, Z').attr({ fill: "none", stroke: '#f00', strokeWidth: 0.8 });
+  var d3 = paper.path('M ').attr({ fill: 'none', stroke: '#f00', strokeWidth: 0.8 });
+  var dSharp3 = paper.path('M 880 291, L 880 349, L 890 349, L 890 291, L 880 291, Z').attr({ fill: "none", stroke: '#f00', strokeWidth: 0.8 });
+  var e3 = paper.path('M ').attr({ fill: 'none', stroke: '#f00', strokeWidth: 0.8 });
+  var f3 = paper.path('M ').attr({ fill: 'none', stroke: '#f00', strokeWidth: 0.8 });
 
 
   var voiceSelect = function(voiceSelected) {
