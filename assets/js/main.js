@@ -126,20 +126,20 @@ window.onload = function() {
   var d2 = paper.path('M 678 291, L 686 349, L 681 349, L 687 392, 716 392, L 709 349, L 704 349, L 690 291, L 678 291, Z').attr({ fill: 'none', stroke: '#000', strokeWidth: 0.5 });
   var dSharp2 = paper.path('M 693 291, L 703 349, L 721 349, L 709 291, L 693 291, Z').attr({ fill: "none", stroke: '#000', strokeWidth: 0.5 });
   var e2 = paper.path('M 709 291, L 721 349, L 710 349, L 717 392, L 746 392, 724 291, L 709 291, Z').attr({ fill: 'none', stroke: '#f00', strokeWidth: 0.8 });
-  var f2 = paper.path('M ').attr({ fill: 'none', stroke: '#f00', strokeWidth: 0.8 });
-  var fSharp2 = paper.path('M 740 291, L 760 349, L 770 349, L 750 291, L 740 291, Z').attr({ fill: "none", stroke: '#f00', strokeWidth: 0.8 });
+  var f2 = paper.path('M 725 291, L 747 392, L 777 392, L 767 349, 754 349, L 740 291, L 725 291, Z').attr({ fill: 'none', stroke: '#f00', strokeWidth: 0.8 });
+  var fSharp2 = paper.path('M 741 291, L 760 348, L 770 348, L 750 291, L 741 291, Z').attr({ fill: "none", stroke: '#f00', strokeWidth: 0.8 });
 
-  var g2 = paper.path('M ').attr({ fill: 'none', stroke: '#f00', strokeWidth: 0.8 });
-  var gSharp2 = paper.path('M 770 291, L 790 349, L 800 349, L 780 291, L 770 291, Z').attr({ fill: "none", stroke: '#f00', strokeWidth: 0.8 });
-  var a2 = paper.path('M ').attr({ fill: 'none', stroke: '#f00', strokeWidth: 0.8 });
-  var aSharp2 = paper.path('M 800 291, L 820 347, L 835 347, L 810 291, L 800 291, Z').attr({ fill: "none", stroke: '#f00', strokeWidth: 0.8 });
-  var b2 = paper.path('M ').attr({ fill: 'none', stroke: '#f00', strokeWidth: 0.8 });
-  var c3 = paper.path('M ').attr({ fill: 'none', stroke: '#f00', strokeWidth: 0.8 });
+  var g2 = paper.path('M 756 291, L 771 349, L 768 349, L 778 392, L 806 392, L 795 349, L 787 349, L 770 291, L 756 291, Z').attr({ fill: 'none', stroke: '#f00', strokeWidth: 0.8 });
+  var gSharp2 = paper.path('M 772 291, L 790 348, L 800 348, L 780 291, L 772 291, Z').attr({ fill: "none", stroke: '#f00', strokeWidth: 0.8 });
+  var a2 = paper.path('M 787 291, L 804 349, L 796 349, L 807 392, L 825 392, L 836 392, L 824 349, L 819 349, L 800 291, L 787 291, Z').attr({ fill: 'none', stroke: '#f00', strokeWidth: 0.8 });
+  var aSharp2 = paper.path('M 802 291, L 820 346, L 835 346, L 810 291, L 802 291, Z').attr({ fill: "none", stroke: '#f00', strokeWidth: 0.8 });
+  var b2 = paper.path('M 820 291, L 840 348, L 825 348, L 838 392, L 865 392, L 833 291, L 820 291, Z').attr({ fill: 'none', stroke: '#f00', strokeWidth: 0.8 });
+  var c3 = paper.path('M 834 291, L 867 392, L 894 392, L 880 349, L 870 349, L 848 291, 834 291, Z').attr({ fill: 'none', stroke: '#f00', strokeWidth: 0.8 });
   var cSharp3 = paper.path('M 850 291, L 870 347, L 880 347, L 860 291, L 850 291, Z').attr({ fill: "none", stroke: '#f00', strokeWidth: 0.8 });
-  var d3 = paper.path('M ').attr({ fill: 'none', stroke: '#f00', strokeWidth: 0.8 });
+  var d3 = paper.path('M 867 291, L 883 330, L 885 348, L 881 348, L 895 392, L 922 392, L 910 348, L 900 348, L 880 291, L 867 291, Z').attr({ fill: 'none', stroke: '#f00', strokeWidth: 0.8 });
   var dSharp3 = paper.path('M 881 291, L 904 348, L 916 348, L 890 291, L 881 291, Z').attr({ fill: "none", stroke: '#f00', strokeWidth: 0.8 });
-  var e3 = paper.path('M ').attr({ fill: 'none', stroke: '#f00', strokeWidth: 0.8 });
-  var f3 = paper.path('M ').attr({ fill: 'none', stroke: '#f00', strokeWidth: 0.8 });
+  var e3 = paper.path('M 900 291, L 920 348, L 910 348, L 930 392, L 950 392, L 910 291, L 900 291, Z').attr({ fill: 'none', stroke: '#f00', strokeWidth: 0.8 });
+  var f3 = paper.path('M 915 291, L 955 392, L 970 392, L 925 291, L 915 291, Z').attr({ fill: 'none', stroke: '#f00', strokeWidth: 0.8 });
 
 
   var voiceSelect = function(voiceSelected) {
