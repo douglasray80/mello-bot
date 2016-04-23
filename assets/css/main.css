@@ -16,7 +16,7 @@ body {}
 button { color: #000000; }
 
 .knob-container {
-  width: 200px;
+  width: 100px;
   margin-top: 16px;
   margin-left: 12px;
   position: fixed;
