@@ -1,23 +1,33 @@
 
 body {}
 
+p {
+  margin-top: 10px;
+  font-family: helvetica;
+  font-size: 20px;
+  font-weight: light;
+  text-shadow: 1px 0 1px;
+}
+
 #canvas {
   background-image: url('../img/mellotron2.jpg');
   background-size: 37%;
   background-repeat: no-repeat;
   width: 3000px;
   height: 800px;
-  margin: 30px;
+  margin-top: -200px;
   padding: 0;
 }
 
-#buttons { margin-top: 10px; }
+#buttons {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
 button { color: #000000; }
 
 .knob-container {
-  width: 100px;
-  margin-top: 16px;
+  margin-top: 20px;
   margin-left: 12px;
   position: fixed;
 }
