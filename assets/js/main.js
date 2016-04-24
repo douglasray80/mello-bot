@@ -104,11 +104,20 @@ window.onload = function() {
 
   // CONSOLE
   paper.path('M 165 19, L 45 232, L 68 232, L 180 19, L 165 19, Z').attr({ fill: '#d7d7d7', stroke: '#000', strokeWidth: 0.1 });
-  // paper.path('M 45 232, L 55 325, L 10 426, L 34 426, L 75 325, L 55 325, M 75 325, L 68 232, L').attr({ fill: 'none', stroke: '#f00', strokeWidth: 0.2 });
+  paper.path('M 913 20, L 1039 230, L 1062 230, L 930 20, L 913 20, Z').attr({ fill: '#d7d7d7', stroke: '#000', strokeWidth: 0.1 });
+
+  // paper.path('M 180 19, L 183 130, L 75 320, L 68 232, Z').attr({ fill: '#d7d7d7', stroke: '#000', strokeWidth: 0.1 });
+  // paper.path('M 913 20, L 905 130, L 1028 320, L 1039 230, Z').attr({ fill: '#d7d7d7', stroke: '#000', strokeWidth: 0.1 });
+
+  // COVER TOP
+  paper.path('M 180 22, L 70 232, L 1037 230, L 913 24, L 180 22, Z').attr({ fill: '#d7d7d7', stroke: '#000', strokeWidth: 0.1 });
+  // COVER FRONT
+  paper.path('M 70 232, L 1037 230, L 1024 290, L 79 291, L 70 232, Z').attr({ fill: '#d7d7d7', stroke: '#000', strokeWidth: 0.1 });
 
 
-  paper.path('M 82 292, L 34 391, L 273 390, L 294 292, L 82 292, M 273 390, L 276 410, L 41 410, L 34 391, Z').attr({ fill: '#d3d3d3', 'fill-opacity': 1, stroke: '#000', strokeWidth: 0.1 });
-  paper.path('M 85 292, L 37 388, L 270 386, L 292 292, L 85 292, Z').attr({ fill: '#dbe4eb', 'fill-opacity': 1, stroke: '#fff', strokeWidth: 0.3 });
+  // CONTROL PANEL
+  paper.path('M 82 292, L 34 391, L 273 390, L 296 292, L 82 292, M 273 390, L 276 410, L 41 410, L 34 391, Z').attr({ fill: '#d3d3d3', 'fill-opacity': 1, stroke: '#000', strokeWidth: 0.1 });
+  paper.path('M 84 292, L 37 388, L 270 386, L 292 292, L 85 292, Z').attr({ fill: '#dbe4eb', 'fill-opacity': 1, stroke: '#fff', strokeWidth: 0.3 });
   paper.path().attr({ fill: 'none', stroke: '#000', strokeWidth: 0.2 });
 
 
