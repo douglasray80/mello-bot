@@ -103,12 +103,12 @@ window.onload = function() {
   });
 
   // CONSOLE
-  paper.path('M 165 19, L 45 232, L 68 232, L 180 19, L 165 19, Z').attr({ fill: '#d7d7d7', stroke: '#f00', strokeWidth: 0.5 });
-  paper.path('M ').attr({ fill: 'none', stroke: '#f00', strokeWidth: 0.5 });
+  paper.path('M 165 19, L 45 232, L 68 232, L 180 19, L 165 19, Z').attr({ fill: '#d7d7d7', stroke: '#000', strokeWidth: 0.1 });
+  // paper.path('M 45 232, L 55 325, L 10 426, L 34 426, L 75 325, L 55 325, M 75 325, L 68 232, L').attr({ fill: 'none', stroke: '#f00', strokeWidth: 0.5 });
 
 
-
-  paper.path().attr({ fill: 'none', stroke: '#000', strokeWidth: 0.5 });
+  paper.path('M 82 292, L 34 391, L 273 390, L 294 292, L 82 292, M 273 390, L 276 408, L 41 410, L 34 391, Z').attr({ fill: '#d3d3d3', 'fill-opacity': 0.5, stroke: '#000', strokeWidth: 0.1 });
+  paper.path('M 85 292, L 37 388, L 270 386, L 292 292, L 85 292, Z').attr({ fill: '#dbe4eb', 'fill-opacity': 0.5, stroke: '#fff', strokeWidth: 0.3 });
   paper.path().attr({ fill: 'none', stroke: '#000', strokeWidth: 0.5 });
 
 
