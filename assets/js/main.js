@@ -3,7 +3,7 @@ window.onload = function() {
   var paper = Snap('#canvas');
 
   var border = paper.rect(0, 0, 1110, 750).attr({ fill: 'none', stroke: '#000000', strokeWidth: 0.3 });
-  //
+
   // var gridX = paper.path(
   //   'M 10 0 V 550 M 20 0 V 550 M 30 0 V 550 M 40 0 V 550 M 50 0 V 550 M 60 0 V 550 M 70 0 V 550 M 80 0 V 550 M 90 0 V 550' +
   //   'M 100 0 V 550 M 110 0 V 550 M 120 0 V 550 M 130 0 V 550 M 140 0 V 550 M 150 0 V 550 M 160 0 V 550 M 170 0 V 550 M 180 0 V 550 M 190 0 V 550' +
